@@ -1,4 +1,4 @@
-function checkSNT(a){
+/*function checkSNT(a){
     let count = 1;
     let i = 2;
     while (i <= a) {
@@ -14,7 +14,7 @@ function checkSNT(a){
 function printSNT() {
     let count = 0;
     let i = 2;
-    while(count <= 20) {
+    while(count < 20) {
         if(checkSNT(i) == true) {
             document.write(i + ' ');    
             count++;       
@@ -22,4 +22,17 @@ function printSNT() {
       
         i++;
     }
+}*/
+function sum7() {
+    let sum = 0;
+    let i = 7;
+    let count = 0;
+    while(count < 30 ){
+        if(i % 7 == 0){
+            sum += 7;
+            count ++;
+        }
+        i++;
+    }
+    document.write(sum);
 }
